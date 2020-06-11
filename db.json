@@ -55,7 +55,7 @@
       "banner_img_large": "//via.placeholder.com/1600x600?text=banner1",
       "cta_urls": [
         {
-          "class": "primary",
+          "cta_class": "primary",
           "url": "/daftar/",
           "title": "Daftar Sekarang"
         }
@@ -75,12 +75,12 @@
       "banner_img_large": "//via.placeholder.com/1600x600?text=banner2",
       "cta_urls": [
         {
-          "class": "download_iOS",
+          "cta_class": "download_iOS",
           "url": "#download_iOS",
           "title": "Download"
         },
         {
-          "class": "download_android",
+          "cta_class": "download_android",
           "url": "#download_android",
           "title": "Download"
         }
@@ -100,7 +100,7 @@
       "banner_img_large": "//via.placeholder.com/1600x600?text=banner3",
       "cta_urls": [
         {
-          "class": "primary",
+          "cta_class": "primary",
           "url": "/daftar/",
           "title": "Daftar Sekarang"
         }
