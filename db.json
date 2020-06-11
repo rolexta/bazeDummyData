@@ -81,7 +81,8 @@
         },
         {
           "class": "download_android",
-          "url": "#download_android"
+          "url": "#download_android",
+          "title": "Download"
         }
       ],
       "banner_navigation": [
