@@ -1,112 +1,374 @@
 {
-	"events": [
-		{
-			"id": 5928101,
-			"user": {
-				"id": "abc123",
-				"name": "Adam"
-			},
-			"category": "animal welfare",
-			"organizer": "Adam",
-			"title": "Cat Cabaret 3",
-			"description": "Yay felines!",
-			"location": "Meow Town",
-			"date": "2019-01-03T21:54:00.000Z",
-			"time": "2:00",
-			"attendees": []
-		},
-		{
-			"id": 8419988,
-			"user": {
-				"id": "abc123",
-				"name": "Adam"
-			},
-			"category": "animal welfare",
-			"organizer": "Adam",
-			"title": "Kitty Cluster",
-			"description": "Yay cats!",
-			"location": "Catlandia",
-			"date": "2019-01-31T22:09:00.000Z",
-			"time": "7:00",
-			"attendees": []
-		},
-		{
-			"id": 4582797,
-			"user": {
-				"id": "abc123",
-				"name": "Adam"
-			},
-			"category": "animal welfare 6",
-			"organizer": "Adam",
-			"title": "Puppy Parade 6",
-			"description": "Yay pups!",
-			"location": "Puptown ",
-			"date": "2019-02-02T23:27:00.000Z",
-			"time": "1:00",
-			"attendees": []
-		}
-	],
-	"banners": [
-		{
-			"id": 1,
-			"title": "Investasi di <strong>MOST</strong> itu <strong>mudah</strong>",
-			"description": "Semudah kamu memesan kopi kesayanganmu",
-			"banner_img_small": "//via.placeholder.com/600?text=banner_sm1",
-			"banner_img_large": "//via.placeholder.com/1600x600?text=banner1",
-			"cta_urls": [
-				{
-					"class": "primary",
-					"url": "/daftar/"
-				}
-			],
-			"banner_navigation": [
-				{
-					"title": "Introduction",
-					"description": "Investasi di MOST itu mudah"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"title": "Cara Keren <strong>Berinvestasi</strong>",
-			"description": "Aplikasi investasi dari perusahaan sekuritas peraih penghargaan nasional.",
-			"banner_img_small": "//via.placeholder.com/600?text=banner_sm2",
-			"banner_img_large": "//via.placeholder.com/1600x600?text=banner2",
-			"cta_urls": [
-				{
-					"class": "download_iOS",
-					"url": "#download_iOS"
-				},
-				{
-					"class": "download_android",
-					"url": "#download_android"
-				}
-			],
-			"banner_navigation": [
-				{
-					"title": "Download APP",
-					"description": "Aplikasi investasi dari perusahaan sekuritas"
-				}
-			]
-		},
-		{
-			"id": 3,
-			"title": "Investasi di <strong>MOST</strong> itu <strong>mudah</strong>",
-			"description": "Semudah kamu memesan kopi kesayanganmu",
-			"banner_img_small": "//via.placeholder.com/600?text=banner_sm3",
-			"banner_img_large": "//via.placeholder.com/1600x600?text=banner3",
-			"cta_urls": [
-				{
-					"class": "primary",
-					"url": "/daftar/"
-				}
-			],
-			"banner_navigation": [
-				{
-					"title": "Introduction",
-					"description": "Investasi di MOST itu mudah"
-				}
-			]
-		}
-	]
+  "events": [
+    {
+      "id": 5928101,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret 3",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": []
+    },
+    {
+      "id": 8419988,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Kitty Cluster",
+      "description": "Yay cats!",
+      "location": "Catlandia",
+      "date": "2019-01-31T22:09:00.000Z",
+      "time": "7:00",
+      "attendees": []
+    },
+    {
+      "id": 4582797,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare 6",
+      "organizer": "Adam",
+      "title": "Puppy Parade 6",
+      "description": "Yay pups!",
+      "location": "Puptown ",
+      "date": "2019-02-02T23:27:00.000Z",
+      "time": "1:00",
+      "attendees": []
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Investasi di <strong>MOST</strong> itu <strong>mudah</strong>",
+      "description": "Semudah kamu memesan kopi kesayanganmu",
+      "banner_img_small": "//via.placeholder.com/600?text=banner_sm1",
+      "banner_img_large": "//via.placeholder.com/1600x600?text=banner1",
+      "cta_urls": [
+        {
+          "class": "primary",
+          "url": "/daftar/"
+        }
+      ],
+      "banner_navigation": [
+        {
+          "title": "Introduction",
+          "description": "Investasi di MOST itu mudah"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cara Keren <strong>Berinvestasi</strong>",
+      "description": "Aplikasi investasi dari perusahaan sekuritas peraih penghargaan nasional.",
+      "banner_img_small": "//via.placeholder.com/600?text=banner_sm2",
+      "banner_img_large": "//via.placeholder.com/1600x600?text=banner2",
+      "cta_urls": [
+        {
+          "class": "download_iOS",
+          "url": "#download_iOS"
+        },
+        {
+          "class": "download_android",
+          "url": "#download_android"
+        }
+      ],
+      "banner_navigation": [
+        {
+          "title": "Download APP",
+          "description": "Aplikasi investasi dari perusahaan sekuritas"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Investasi di <strong>MOST</strong> itu <strong>mudah</strong>",
+      "description": "Semudah kamu memesan kopi kesayanganmu",
+      "banner_img_small": "//via.placeholder.com/600?text=banner_sm3",
+      "banner_img_large": "//via.placeholder.com/1600x600?text=banner3",
+      "cta_urls": [
+        {
+          "class": "primary",
+          "url": "/daftar/"
+        }
+      ],
+      "banner_navigation": [
+        {
+          "title": "Introduction",
+          "description": "Investasi di MOST itu mudah"
+        }
+      ]
+    }
+  ],
+  "article": [
+    {
+      "source": {
+        "id": null,
+        "name": "Viva.co.id"
+      },
+      "author": "Daurina Lestari, ABC Indonesia",
+      "title": "Pertikaian Berlanjut, China Tuding Australia Tak Aman untuk Kuliah",
+      "description": "Berita Pertikaian Berlanjut, China Tuding Australia Tak Aman untuk Kuliah terbaru hari ini 2020-06-11 10:06:02 dari sumber yang terpercaya",
+      "url": "https://www.viva.co.id/berita/dunia/1221277-pertikaian-berlanjut-china-tuding-australia-tak-aman-untuk-kuliah",
+      "urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2020/06/11/5ee1954da64b5-pertikaian-berlanjut-china-tuding-australia-tak-aman-untuk-kuliah_665_374.jpg",
+      "publishedAt": "2020-06-11T03:06:02Z",
+      "content": "Pertikaian diplomatik antara Australia dan China kini melebar ke sektor pendidikan. China menganggap tidak aman bagi warganya untuk kuliah di Australia karena meningkatnya \"serangan rasis\".\r\nKetegang… [+6881 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YLE News"
+      },
+      "author": null,
+      "title": "Kansallisteatterin mittava remontti voi viivästyä valitusten takia – uudisosan suunnittelija saanut vihapostia",
+      "description": "Museovirasto puolustaa 1930-luvulla rakennettujen teatterin julkisivujen purkua.",
+      "url": "https://yle.fi/uutiset/3-11393885",
+      "urlToImage": "https://images.cdn.yle.fi/image/upload/w_1200,h_630,c_fit,q_80/39-6859855eda258a72507.jpg",
+      "publishedAt": "2020-06-11T03:05:00Z",
+      "content": "Kansallisteatteri sai viime syksynä hartaasti odottamansa remonttirahat opetus- ja kulttuuriministeriöltä. 50 miljoonalla on tarkoitus peruskorjata teatterin 1950-luvun tilat, pieni näyttämö, Willens… [+13141 chars]"
+    },
+    {
+      "source": {
+        "id": "rtl-nieuws",
+        "name": "RTL Nieuws"
+      },
+      "author": null,
+      "title": "Studenten helpen scholier met achterstand door coronacrisis",
+      "description": "Studenten gaan komende zomer scholieren helpen die door de coronacrisis achterstanden hebben opgelopen. Naar schatting gaat het om duizenden leerlingen op basis- en middelbare scholen. Dat komt bijvoorbeeld doordat hun ouders de taal niet goed spreken of omda…",
+      "url": "https://www.rtlnieuws.nl/nieuws/politiek/artikel/5149231/studenten-helpen-scholieren-met-achterstanden-door-coronacrisis",
+      "urlToImage": "https://www.rtlnieuws.nl/sites/default/files/styles/liggend_hoge_resolutie/public/content/images/2020/06/10/ANP-403487141.jpg?h=a9edb586&itok=-HJMzH6G",
+      "publishedAt": "2020-06-11T03:03:54Z",
+      "content": "Het lesgeven doet hij nu nog alleen digitaal, vanwege de coronamaatregelen. \"Ik begeleid hem nu twee keer per week. Helemaal als je de taal moet leren spreken is het belangrijk dat je dat blijft oefe… [+908 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "DIE WELT"
+      },
+      "author": "Bettina Seipp, Bettina Seipp",
+      "title": "Ein Wegweiser zu den Flying Five im Wattenmeer",
+      "description": "Das Wattenmeer ist in ständiger Wandlung. Wind und Wasser formen täglich neue Landschaften surrealer Schönheit – und der Fotograf Martin Stock ist immer dabei. Er richtet seine Linse auch auf die Bewohner dieser Region.",
+      "url": "https://www.welt.de/regionales/hamburg/article209259143/Wattenmeer-Fotograf-Martin-Stock-zeigt-das-Weltnaturerbe-neu.html",
+      "urlToImage": "https://www.welt.de/img/reise/mobile209261373/8251350407-ci16x9-w1200/Austernfischer-Dr-Martin-Stock-Tim-Sc.jpg",
+      "publishedAt": "2020-06-11T03:01:34Z",
+      "content": "Für das Wattenmeer war 2017 ein gutes Jahr. Eine internationale Übereinkunft verpflichtet seither Hochseeschiffe, vor dem Ablassen des Ballastwassers die darin mitgeführten Algen, Bakterien, Quallen,… [+3683 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "tagesschau.de"
+      },
+      "author": "tagesschau.de",
+      "title": "Liveblog: ++Bis September 200.000 US-Todesfälle?++",
+      "description": "Einer neuen Prognose zufolge könnte die Zahl der Corona-Opfer in den USA bis September auf 200.000 steigen. Die WHO braucht mehr Geld für den Kampf gegen das Virus in Afrika. Alle aktuellen Entwicklungen im Liveblog.",
+      "url": "http://www.tagesschau.de/newsticker/liveblog-coronavirus-donnerstag-117.html",
+      "urlToImage": "https://www.tagesschau.de/multimedia/bilder/usa-coronavirus-133~_v-videowebm.jpg",
+      "publishedAt": "2020-06-11T03:00:31Z",
+      "content": "Stand: 11.06.2020 05:08 Uhr\r\nEiner neuen Prognose zufolge könnte die Zahl der Corona-Opfer in den USA bis September auf 200.000 steigen. Die WHO braucht mehr Geld für den Kampf gegen das Virus in Afr… [+395 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Detik.com"
+      },
+      "author": "Sarah Oktaviani Alam",
+      "title": "Ahli Jelaskan Potensi Penyebaran Virus Corona di Dalam Pesawat",
+      "description": "Sebuah riset meneliti bagaimana virus Corona bisa menyebar di dalam pesawat. Bahkan mereka menemukan posisi duduk yang lebih aman dari virus.",
+      "url": "https://health.detik.com/berita-detikhealth/d-5049018/ahli-jelaskan-potensi-penyebaran-virus-corona-di-dalam-pesawat",
+      "urlToImage": "https://awsimages.detik.net.id/api/wm/2020/03/29/8450b0ff-1bf7-459f-a164-ef2f2aecf658_169.jpeg?wid=54&w=650&v=1&t=jpeg",
+      "publishedAt": "2020-06-11T03:00:05Z",
+      "content": "Jakarta - Penyakit menular, seperti flu, influenza dan virus Corona mudah menyebar di dalam ruangan, salah satunya dalam mode transportasi pesawat. Direktur medis pengawasan antimikroba dan pengendal… [+2737 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.hln.be"
+      },
+      "author": null,
+      "title": "IN KAART. Zit uw gemeente boven de ‘coronadrempels’?",
+      "description": "De overheid werkt aan een systeem om nieuwe corona-uitbraken lokaal te controleren en in te dijken. Daarbij hanteert federaal wetenschappelijk...",
+      "url": "https://www.hln.be/nieuws/binnenland/in-kaart-zit-uw-gemeente-boven-de-coronadrempels~afb06cc9/?utm_medium=rss&utm_content=Net%20binnen",
+      "urlToImage": null,
+      "publishedAt": "2020-06-11T03:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "STLtoday.com"
+      },
+      "author": "By Steve Overbey STLhighschoolsports.com",
+      "title": "Mizzou's Bedell waits along with others",
+      "description": "Several players with area ties hoping to go in draft.",
+      "url": "https://www.stltoday.com/sports/baseball/professional/mizzous-bedell-waits-along-with-others/article_63156916-bf2d-56fb-8f9c-5e85affae45d.html",
+      "urlToImage": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/e/8b/e8bf04be-f664-5ee8-9978-78b0252109a2/5ee197aedc62c.image.jpg?crop=1763%2C992%2C0%2C91&resize=1120%2C630&order=crop%2Cresize",
+      "publishedAt": "2020-06-11T03:00:00Z",
+      "content": "Missouri pitcher Ian Bedell pitches against Western Illinois on March 6 in Columbia, Mo. (Mizzou Athletics photo)\r\nIan Bedell will have to wait another day.\r\nThe University of Missouri right-handed p… [+1301 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.hln.be"
+      },
+      "author": null,
+      "title": "IN KAART. Zit uw gemeente boven de ‘coronadrempels’?",
+      "description": "De overheid werkt aan een systeem om nieuwe corona-uitbraken lokaal te controleren en in te dijken. Daarbij hanteert federaal wetenschappelijk...",
+      "url": "https://www.hln.be/nieuws/binnenland/in-kaart-zit-uw-gemeente-boven-de-coronadrempels~afb06cc9/?utm_medium=rss&utm_content=Nieuws",
+      "urlToImage": null,
+      "publishedAt": "2020-06-11T03:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lavozdegalicia.es"
+      },
+      "author": "María Doallo",
+      "title": "Los héroes del covid-19 ya tienen uniforme",
+      "description": "La carballiñesa Verónica Civeira es enfermera en el CHUO, superó el coronavirus y ahora luce encantada su camiseta de O'Ruán",
+      "url": "https://www.lavozdegalicia.es/noticia/ourense/o-carballino/2020/06/11/heroes-covid-19-uniforme/0003_202006O11C8991.htm",
+      "urlToImage": "https://www.lavozdegalicia.es/default/2020/06/10/00121591800901274218783/Foto/OJ11C8F1_1.jpg",
+      "publishedAt": "2020-06-11T03:00:00Z",
+      "content": "«Me pareció la oportunidad perfecta para reconocer la labor de todos los sanitarios». Esto fue lo que pensó Óskar Ruán cuando uno de los distribuidores de sus tiendas de ropa y complementos para muje… [+3062 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elconfidencial.com"
+      },
+      "author": "N.Tiburcio",
+      "title": "Diamantes, zafiros y rubíes: una joya 'creada' por Victoria Eugenia se subasta por 3.000 €",
+      "description": "La esposa de Alfonso XIII confió en Ansorena para hacer estos lazos que sus damas de compañía colgaban en el pecho",
+      "url": "https://www.vanitatis.elconfidencial.com/casas-reales/2020-06-11/subasta-joya-victoria-eugenia-ansorena_2633255/",
+      "urlToImage": "https://www.ecestaticos.com/imagestatic/clipping/70b/a06/70ba0612c17a200a7eed4a5d8d9fce50/diamantes-zafiros-y-rubies-una-joya-creada-por-victoria-eugenia-se-subasta-por-3-000.jpg?mtime=1591809122",
+      "publishedAt": "2020-06-11T03:00:00Z",
+      "content": "¿Os imagináis a la estilista de doña Letizia luciendo una tiara de diamantes? Los tiempos han cambiado y también las personas que rodean a los miembros de la familia real. Antes era habitual que las … [+2145 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "STERN.de"
+      },
+      "author": "STERN.de",
+      "title": "DFB-Pokal Halbfinale: Flicks «Riesenlob» für müde Bayern-Stars",
+      "description": "Im Kampf um den «Pott» stehen sich am 4. Juli in Berlin der FC Bayern und Bayer Leverkusen gegenüber. Die Münchner könnten dann das nächste Double feiern. Doch der Rekordchampion scheint «schlagbar», wie sich beim knappen Sieg gegen Eintracht Frankfurt im Hal…",
+      "url": "https://www.stern.de/news/dfb-pokal-halbfinale-flicks--riesenlob--fuer-muede-bayern-stars-9297104.html",
+      "urlToImage": "https://image.stern.de/9297106/16x9-800-450/b59a39960b04701befc7bd9b0d105aa8/SM/11--urnnewsmldpacom2009010120061199384820v3w800h600l691t517r1768b1336jpeg---7b9dbfcb46765789.jpg",
+      "publishedAt": "2020-06-11T02:59:46Z",
+      "content": "Auf dieses DFB-Pokalfinale können sich die Fans in Deutschland freuen. Bayern-Trainer Hansi Flick ist jedenfalls davon überzeugt, dass das Duell des Titelverteidigers mit Herausforderer Bayer Leverku… [+2193 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Stuff.co.nz"
+      },
+      "author": "LEIGHTON KEITH",
+      "title": "Hangover remains for liquor giant after cyber attack",
+      "description": "A New Plymouth publican says his bar is getting low on supplies due to distribution issues caused by Monday's cyber attack.",
+      "url": "https://www.stuff.co.nz/taranaki-daily-news/121794746/hangover-remains-for-liquor-giant-after-cyber-attack",
+      "urlToImage": "https://resources.stuff.co.nz/content/dam/images/4/y/m/p/e/n/image.related.StuffLandscapeSixteenByNine.1420x800.20ihfe.png/1591844040612.jpg",
+      "publishedAt": "2020-06-11T02:53:57Z",
+      "content": "A cyber attack on an Australasian liquor giant is still causing headaches for the company, its suppliers and customers.\r\n Lion suffered the attack on Monday, the same day New Zealand moved to coronav… [+2058 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Faz.net"
+      },
+      "author": "dpa",
+      "title": "Großveranstaltungen geplant: Trump will Wahlkampf wieder aufnehmen",
+      "description": "„Laut und ungestüm und groß“ sollen die Veranstaltungen des Präsidenten werden, kündigt dessen Kommunikationsdirektor an. Bedenken weist er zurück: Trump-Kritiker hätten sich auch nicht an den Massenprotesten infolge des Todes von George Floyd gestört.",
+      "url": "https://www.faz.net/aktuell/politik/trumps-praesidentschaft/grossveranstaltungen-geplant-trump-will-wahlkampf-wieder-aufnehmen-16810069.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/aktuell/681616514/1.6810074/facebook_teaser/trump-bei-seiner-letzten.jpg",
+      "publishedAt": "2020-06-11T02:45:18Z",
+      "content": "Erstmals seit mehr als drei Monaten will der amerikanische Präsident Donald Trump voraussichtlich am Freitag kommender Woche wieder eine Wahlkampfveranstaltung abhalten trotz der andauernden Corona-P… [+1777 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "tagesschau.de"
+      },
+      "author": "tagesschau.de",
+      "title": "Virologe zu Corona: Den \"Super-Impfstoff\" gibt es vielleicht nie - tagesschau.de",
+      "description": "Erfolgsmeldungen zur Impfstoffentwicklung häufen sich. Doch das habe mit der Realität oft wenig zu tun, sagt Virologe Keppler im tagesschau.de-Interview. Den \"Super-Impfstoff\" gegen Corona werde es womöglich nie geben.",
+      "url": "https://www.tagesschau.de/inland/interview-keppler-101.html",
+      "urlToImage": "https://www.tagesschau.de/multimedia/bilder/impfstoff-coronavirus-105~_v-videowebm.jpg",
+      "publishedAt": "2020-06-11T02:43:00Z",
+      "content": "Erfolgsmeldungen zur Impfstoffentwicklung häufen sich. Doch das habe mit der Realität oft wenig zu tun, sagt Virologe Keppler im tagesschau.de-Interview. Den \"Super-Impfstoff\" gegen Corona werde es w… [+6822 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Viva.co.id"
+      },
+      "author": "Daurina Lestari, BBC Indonesia",
+      "title": "Dalam Tempo 48 Jam, 11 Anggota Keluarga Terjangkit COVID-19",
+      "description": "Berita Dalam Tempo 48 Jam, 11 Anggota Keluarga Terjangkit COVID-19 terbaru hari ini 2020-06-11 09:40:02 dari sumber yang terpercaya",
+      "url": "https://www.viva.co.id/berita/dunia/1221274-dalam-tempo-48-jam-11-anggota-keluarga-terjangkit-covid-19",
+      "urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2020/06/11/5ee191bac23b9-covid-19-satu-keluarga-besar-di-india-terjangkit-virus-corona-dalam-sekejap-rumah-kami-berubah-menjadi-rumah-sakit_665_374.jpg",
+      "publishedAt": "2020-06-11T02:40:02Z",
+      "content": "Mukul Garg tidak terlalu khawatir ketika pamannya yang berusia 57 tahun mengalami demam pada 24 April.\r\nNamun, dalam tempo 48 jam, dua dari 17 anggota keluarga lainnya jatuh sakit.\r\nGejala-gejala mun… [+5790 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Detik.com"
+      },
+      "author": "Andhika Prasetia",
+      "title": "Wapres-KPAI Gelar Rakornas Bahas Kesiapan Pesantren di Masa New Normal",
+      "description": "KPAI akan menggelar rakornas membahas kesiapan pesantren dalam penerapan new normal. Rakornas akan dibuka Wapres Ma'ruf Amin.",
+      "url": "https://news.detik.com/berita/d-5048991/wapres-kpai-gelar-rakornas-bahas-kesiapan-pesantren-di-masa-new-normal",
+      "urlToImage": "https://awsimages.detik.net.id/api/wm/2020/05/08/8506601c-ad39-4dd4-a0d4-1a115dc6a956_169.jpeg?wid=54&w=650&v=1&t=jpeg",
+      "publishedAt": "2020-06-11T02:39:50Z",
+      "content": "Jakarta - Komisi Perlindungan Anak Indonesia (KPAI) akan menggelar rapat koordinasi nasional membahas kesiapan pesantren dan satuan pendidikan keagamaan berbasis asrama dalam penerapan new normal. Ra… [+516 chars]"
+    },
+    {
+      "source": {
+        "id": "handelsblatt",
+        "name": "Handelsblatt"
+      },
+      "author": ", Reuters, ap",
+      "title": "Coronavirus – Die Lage am Donnerstag: Umfrage: Deutsche kommen vergleichsweise gut durch die Coronakrise",
+      "description": "Deutsche müssen weniger krisenbedingte Einkommenseinbußen hinnehmen als andere Europäer. Allerdings haben sich die deutschen Einkaufsgewohnheiten geändert.",
+      "url": "https://www.handelsblatt.com/politik/international/coronavirus-die-lage-am-donnerstag-umfrage-deutsche-kommen-vergleichsweise-gut-durch-die-coronakrise/25483702.html",
+      "urlToImage": "https://www.handelsblatt.com/images/jungfernstieg-in-hamburg/25773916/5-format2003.jpg",
+      "publishedAt": "2020-06-11T02:38:32Z",
+      "content": "<li>Herr Andre Uhde05.06.2020, 08:59 Uhr\r\nHallo, könnte es sein, dass im zweiten Absatz ein Fehler ist: \"Wir haben in diesem Jahr einen Rückgang des Bruttoinlandsprodukts zu erwarten, der voraussicht… [+5945 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Viva.co.id"
+      },
+      "author": "Adinda Permatasari",
+      "title": "Pandemi COVID-19 Belum Berakhir, Coachella Akhirnya Dibatalkan",
+      "description": "Berita Pandemi COVID-19 Belum Berakhir, Coachella Akhirnya Dibatalkan terbaru hari ini 2020-06-11 09:38:07 dari sumber yang terpercaya",
+      "url": "https://www.viva.co.id/showbiz/musik/1221281-pandemi-covid-19-belum-berakhir-coachella-akhirnya-dibatalkan",
+      "urlToImage": "https://thumb.viva.co.id/media/frontend/thumbs3/2020/06/11/5ee198aa9f888-festival-musik-coachella_665_374.jpg",
+      "publishedAt": "2020-06-11T02:38:07Z",
+      "content": "VIVA  Festival musik terbesar di dunia Coachella Valley Music and Art Festival akhirnya batal diselenggarakan. Begitu juga dengan festival serupa di negara yang sama, Stagecoach.\r\nPengumuman itu dike… [+2045 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Business Standard"
+      },
+      "author": "BS Web Team & Agencies",
+      "title": "Delhi's Kasturba Hospital doctors may resign over 'no salary for 3 months'",
+      "description": "The resident doctors' association at the NDMC's 450-bedded Kasturba Hospital claimed that they have not been paid salary since March",
+      "url": "https://www.business-standard.com/article/current-affairs/docs-at-delhi-s-kasturba-hospital-to-resign-over-no-salary-for-3-months-120061100163_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/misc/2020-06/06/full/20200606109L.jpg",
+      "publishedAt": "2020-06-11T02:38:00Z",
+      "content": "Resident doctors of Kasturba Hospital have decided to tender mass resignation as it is not right time to go on strike, said Dr Sunil Kumar, president of Resident Doctors' Association of Kasturba Hosp… [+1968 chars]"
+    }
+  ]
 }
